@@ -1,233 +1,284 @@
 <!DOCTYPE html>
 <html lang="uk">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Void Wear</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #333;
-            color: white;
-            padding: 10px 20px;
-        }
-        header h1 {
-            margin: 0;
-        }
-        nav {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            background-color: #444;
-            padding: 10px 0;
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-            padding: 5px 10px;
-        }
-        nav a:hover {
-            background-color: #555;
-            border-radius: 5px;
-        }
-        .hero {
-            background-image: url('your-image.jpg');
-            background-size: cover;
-            background-position: center;
-            color: white;
-            text-align: center;
-            padding: 50px 20px;
-        }
-        .hero h2 {
-            margin: 0;
-        }
-        .category {
-            padding: 20px;
-        }
-        .category h2 {
-            text-align: center;
-            background-color: #f4f4f4;
-            padding: 10px 0;
-            border-radius: 5px;
-        }
-        .products {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            padding: 20px 0;
-        }
-        .product {
-            width: 300px;
-            margin: 10px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            overflow: hidden;
-            text-align: center;
-        }
-        .product img {
-            width: 100%;
-            height: auto;
-        }
-        .product h3 {
-            margin: 10px 0;
-        }
-        .contact {
-            padding: 20px;
-            background-color: #f4f4f4;
-            text-align: center;
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 10px 0;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>Void Wear</h1>
-    </header>
-    <nav>
-        <a href="#sneakers">Кросівки</a>
-        <a href="#jackets">Куртки</a>
-        <a href="#tshirts">Футболки</a>
-        <a href="#hoodies">Худі</a>
-        <a href="#pants">Штани</a>
-        <a href="#dresses">Сукні</a>
-        <a href="#accessories">Аксесуари</a>
-        <a href="#contact">Контакти</a>
-    </nav>
-    <section id="sneakers" class="category">
-        <h2>Кросівки</h2>
-        <div class="products">
-            <div class="product">
-                <img src="image/black cat.jpg" alt="Air Jordan 4 Retro Black Cat">
-                <h3>Air Jordan 4 Retro Black Cat</h3>
-                <p>Ціна: 60000 грн</p>
-            </div>
-            <div class="product">
-                <img src="image/off white.jpg" alt="OFF-WHITE Out Of Office OOO For Walking Low Tops Black White">
-                <h3>OFF-WHITE Out Of Office OOO For Walking Low Tops Black White</h3>
-                <p>Ціна: 30000 грн</p>
-            </div>
-            <div class="product">
-                <img src="image/track.jpg" alt="Balenciaga Track Black">
-                <h3>Balenciaga Track Black</h3>
-                <p>Ціна: 45000 грн</p>
-            </div>
-        </div>
-    </section>
-    <section id="jackets" class="category">
-        <h2>Куртки</h2>
-        <div class="products">
-            <div class="product">
-                <img src="image/polo.webp" alt="Polo Ralph Lauren">
-                <h3>Polo Ralph Lauren</h3>
-                <p>Ціна: 17000 грн</p>
-            </div>
-            <div class="product">
-                <img src="image/trapstar.jpg" alt="Trapstar Decoded 2.0 Hooded Puffer Jacket Blackout Edition">
-                <h3>Trapstar Decoded 2.0 Hooded Puffer Jacket Blackout Edition</h3>
-                <p>Ціна: 16000 грн</p>
-            </div>
-            <div class="product">
-                <img src="image/moncler.jpg" alt="MONCLER ENFANT">
-                <h3>MONCLER ENFANT</h3>
-                <p>Ціна: 29000 грн</p>
-            </div>
-        </div>
-    </section>
-    <section id="tshirts" class="category">
-        <h2>Футболки</h2>
-        <div class="products">
-            <div class="product">
-                <img src="image/heron.jpg" alt="Heron Preston NF Heron SS Tee Black">
-                <h3>Heron Preston NF Heron SS Tee Black</h3>
-                <p>Ціна: 24000 грн</p>
-            </div>
-            <div class="product">
-                <img src="image/darkwade.jpg" alt="balenciaga darkwave t shirt">
-                <h3>balenciaga darkwave t shirt</h3>
-                <p>Ціна: 30000 грн</p>
-            </div>
-            <div class="product">
-                <img src="image/palm t shirt.jpg" alt="Palm Angels Slim Fit T-Shirt">
-                <h3>Palm Angels Slim Fit T-Shirt</h3>
-                <p>Ціна: 27000 грн</p>
-            </div>
-        </div>
-    </section>
-    <section id="hoodies" class="category">
-        <h2>Худі</h2>
-        <div class="products">
-            <div class="product">
-                <img src="image/chrome t.jpg" alt="Худи Chrome Hearts Multi Color Cross Cemetery Hoodie Black">
-                <h3>Худи Chrome Hearts Multi Color Cross Cemetery Hoodie Black</h3>
-                <p>Ціна: 98000 грн</p>
-            </div>
-            <div class="product">
-                <img src="image/amiri zip.jpg" alt="AMIRI Core Ripped zip-up Hoodie">
-                <h3>AMIRI Core Ripped zip-up Hoodie</h3>
-                <p>Ціна: 70000 грн</p>
-            </div>
-            <div class="product">
-               <img src="image/sagvinik.jpg" alt="Sangvinik The Other Side Full Zip Hoodie">
-                <h3>Sangvinik The Other Side Full Zip Hoodie</h3>
-                <p>Ціна: 3500 грн</p>
-            </div>
-        </div>
-    </section>
-    <section id="pants" class="category">
-        <h2>Штани</h2>
-        <div class="products">
-            <div class="product">
-                <img src="image/palm.jpg" alt="Palm Angels Track Sweatpants Black">
-                <h3>Palm Angels Track Sweatpants Black</h3>
-                <p>Ціна: 14000 грн</p>
-            </div>
-            <div class="product">
-               <img src="image/racer.webp" alt="Racer Worldwide Track Sweatpants">
-                <h3>Racer Worldwide Track Sweatpants</h3>
-                <p>Ціна: 4500 грн</p>
-            </div>
-            <div class="product">
-               <img src="image/balenci adidas.jpg" alt="Balenciaga x adidas Men's' Baggy Jeans">
-                <h3>Balenciaga x adidas Men's' Baggy Jeans</h3>
-                <p>Ціна: 63000 грн</p>
-            </div>
-        </div>
-    </section>
-    <section id="dresses" class="category">
-        <h2>Сукні</h2>
-        <div class="products">
-            <div class="product">
-                <img src="image/dress 1.avif" alt="Balenciaga Women's Asymmetric Bustier Gown in Black">
-                <h3>Balenciaga Women's Asymmetric Bustier Gown in Black</h3>
-                <p>Ціна: 2454627 грн</p>
-            </div>
-            <div class="product">
-                <img src="image/dress 2.jpg" alt="RICK OWENS FW24 PORTERVILLE RUNWAY MICH DRESS IN">
-                <h3>RICK OWENS FW24 PORTERVILLE RUNWAY MICH DRESS IN</h3>
-                <p>Ціна: 873681 грн</p>
-            </div>
-        </div>
-    </section>
-    <section id="accessories" class="category">
-        <h2>Аксесуари</h2>
-        <div class="products">
-            <div class="product">
-                <img src="image/dior sport.jpg" alt="Dior Sport 1 Woman Shield Sunglasses">
-                <h3>Dior Sport 1 Woman Shield Sunglasses</h3>
-                <p>Ціна: 5000 грн</p>
-            </div>
-            <div class="product">
-                <img src="image/chrome acc.webp" alt="FANCY LINK KEY CHAIN WITH DOUBLE CROSS AND DAGGER KEY RING">
-                <h3>FANCY LINK KEY CHAIN WITH DOUBLE CROSS AND DAGGER KEY RING</h3>
-                <p>Ціна: 81000 грн</p>
-            </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Портфоліо-лендінг NovaCraft Studio: розробка сайтів, бренд-дизайн і digital-стратегії для малого бізнесу та експертів."
+    />
+    <title>NovaCraft Studio — Сучасні сайти та digital-рішення</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Перейти до контенту</a>
 
+    <header class="header" id="top">
+      <div class="container header__inner">
+        <a class="logo" href="#hero" aria-label="NovaCraft Studio">NovaCraft<span>Studio</span></a>
+
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Відкрити меню">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="nav" id="site-nav" aria-label="Основна навігація">
+          <a href="#about">Про нас</a>
+          <a href="#services">Послуги</a>
+          <a href="#portfolio">Кейси</a>
+          <a href="#benefits">Переваги</a>
+          <a href="#reviews">Відгуки</a>
+          <a href="#faq">FAQ</a>
+          <a href="#contact">Контакти</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="hero" id="hero">
+        <div class="container hero__content reveal">
+          <p class="eyebrow">Портфоліо / Лендінг для [ІМ’Я / БРЕНД]</p>
+          <h1>Допомагаємо брендам виглядати дорожче та продавати впевненіше онлайн</h1>
+          <p class="hero__subtitle">
+            NovaCraft Studio створює швидкі, стильні та конверсійні сайти для власників малого бізнесу, фрилансерів і команд, які хочуть стабільний потік заявок.
+          </p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#contact">Замовити консультацію</a>
+            <a class="btn btn--ghost" href="#portfolio">Переглянути роботи</a>
+          </div>
+          <ul class="hero__stats" aria-label="Ключові показники">
+            <li><strong>70+</strong><span>реалізованих проєктів</span></li>
+            <li><strong>4.9/5</strong><span>середня оцінка клієнтів</span></li>
+            <li><strong>2-4 тижні</strong><span>до запуску сайту</span></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="container grid grid--two">
+          <div class="reveal">
+            <p class="section__label">Про бренд</p>
+            <h2>Хто ми та яку користь даємо бізнесу</h2>
+            <p>
+              Ми — команда вебдизайнерів, розробників та маркетинг-стратегів. Допомагаємо бізнесам перейти від “просто красивого сайту” до інструменту, який будує довіру, підсилює експертність і приводить нові звернення.
+            </p>
+            <p>
+              Кожен проєкт починаємо з аналізу вашої аудиторії: хто купує, чому обирає і які питання ставить перед рішенням. На базі цього формуємо структуру, контент та інтерфейс.
+            </p>
+          </div>
+          <aside class="about-card reveal">
+            <h3>Що отримує клієнт у результаті</h3>
+            <ul>
+              <li>Чітку презентацію послуг без перевантаження.</li>
+              <li>Сайт, який коректно працює на всіх пристроях.</li>
+              <li>Зручний шлях від першого екрану до заявки.</li>
+              <li>Готову основу для SEO та рекламних кампаній.</li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section section--alt" id="services">
+        <div class="container">
+          <p class="section__label reveal">Послуги</p>
+          <h2 class="reveal">Рішення, які дають вимірюваний результат</h2>
+          <div class="cards cards--services">
+            <article class="card reveal">
+              <h3>Лендінг під запуск</h3>
+              <p>Один чіткий сценарій продажу для нової послуги чи продукту — з акцентом на заявки, а не просто перегляди.</p>
+            </article>
+            <article class="card reveal">
+              <h3>Портфоліо для експертів</h3>
+              <p>Структурована подача кейсів, досвіду та переваг, яка підсилює особистий бренд і довіру роботодавців чи клієнтів.</p>
+            </article>
+            <article class="card reveal">
+              <h3>Редизайн існуючого сайту</h3>
+              <p>Оновлюємо візуал і UX, прибираємо “вузькі місця” та покращуємо шлях користувача до контакту.</p>
+            </article>
+            <article class="card reveal">
+              <h3>Контент і сенси</h3>
+              <p>Допомагаємо сформулювати сильні офери, блоки переваг і тексти, які відповідають запитам вашої аудиторії.</p>
+            </article>
+            <article class="card reveal">
+              <h3>Технічна оптимізація</h3>
+              <p>Працюємо над швидкістю завантаження, мобільною адаптацією та базовою SEO-структурою для кращої видимості.</p>
+            </article>
+            <article class="card reveal">
+              <h3>Підтримка після запуску</h3>
+              <p>Вносимо правки, додаємо нові блоки та супроводжуємо сайт, щоб він ріс разом із вашим бізнесом.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="portfolio">
+        <div class="container">
+          <p class="section__label reveal">Портфоліо / Кейси</p>
+          <h2 class="reveal">Проєкти, які говорять мовою результатів</h2>
+          <div class="cards cards--portfolio">
+            <article class="card project reveal">
+              <div class="project__thumb" aria-hidden="true">FinFlow</div>
+              <h3>FinFlow Consulting</h3>
+              <p>Лендінг для фінансової агенції. Збільшили конверсію форми на 38% за 2 місяці.</p>
+              <p class="project__tech">Технології: HTML, CSS, JS, GA4</p>
+              <a class="link" href="#contact">Переглянути</a>
+            </article>
+            <article class="card project reveal">
+              <div class="project__thumb" aria-hidden="true">EduBridge</div>
+              <h3>EduBridge Academy</h3>
+              <p>Сайт для освітньої платформи з адаптивною структурою курсів і сильним CTA-блоком.</p>
+              <p class="project__tech">Технології: React, Tailwind, Vite</p>
+              <a class="link" href="#contact">Детальніше</a>
+            </article>
+            <article class="card project reveal">
+              <div class="project__thumb" aria-hidden="true">SteelPro</div>
+              <h3>SteelPro Manufacturing</h3>
+              <p>Корпоративний сайт для B2B-виробника. Час перебування на сайті виріс на 41%.</p>
+              <p class="project__tech">Технології: Next.js, CMS, Schema.org</p>
+              <a class="link" href="#contact">Переглянути</a>
+            </article>
+            <article class="card project reveal">
+              <div class="project__thumb" aria-hidden="true">MediNova</div>
+              <h3>MediNova Clinic</h3>
+              <p>Медичний лендінг із зручною мобільною формою. Кількість заявок виросла на 52%.</p>
+              <p class="project__tech">Технології: HTML, CSS, JS, CRM</p>
+              <a class="link" href="#contact">Детальніше</a>
+            </article>
+            <article class="card project reveal">
+              <div class="project__thumb" aria-hidden="true">CraftLane</div>
+              <h3>CraftLane Store</h3>
+              <p>Промо-сайт e-commerce бренду: чітка структура каталогу та акцент на преміальну подачу.</p>
+              <p class="project__tech">Технології: React, API, Lighthouse</p>
+              <a class="link" href="#contact">Переглянути</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--alt" id="benefits">
+        <div class="container">
+          <p class="section__label reveal">Чому обирають нас</p>
+          <h2 class="reveal">Не просто дизайн — комплексний підхід</h2>
+          <div class="cards cards--benefits">
+            <article class="card reveal"><h3>🧠 Стратегія</h3><p>Кожен блок має бізнес-мету: довіра, інтерес або заявка.</p></article>
+            <article class="card reveal"><h3>⚡ Швидкість</h3><p>Оптимізований код без зайвих бібліотек і перевантажених скриптів.</p></article>
+            <article class="card reveal"><h3>📱 Адаптивність</h3><p>Відмінний UX на телефоні, планшеті й великому екрані.</p></article>
+            <article class="card reveal"><h3>🎯 Фокус на конверсії</h3><p>Ведемо користувача до дії через продуманий сценарій.</p></article>
+            <article class="card reveal"><h3>🤝 Прозора комунікація</h3><p>Звіти на кожному етапі та чіткі дедлайни без “сюрпризів”.</p></article>
+            <article class="card reveal"><h3>🔧 Підтримка</h3><p>Після запуску допомагаємо розвивати сайт, а не залишаємо наодинці.</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="reviews">
+        <div class="container">
+          <p class="section__label reveal">Відгуки</p>
+          <h2 class="reveal">Що говорять клієнти після запуску</h2>
+          <div class="cards cards--reviews">
+            <article class="card review reveal">
+              <h3>Олена, власниця студії краси</h3>
+              <p>“Після оновлення сайту ми почали отримувати вдвічі більше заявок із мобільних. Дуже відчутний результат уже в перший місяць.”</p>
+            </article>
+            <article class="card review reveal">
+              <h3>Максим, керівник IT-аутсорс компанії</h3>
+              <p>“Команда зібрала структуру під нашу аудиторію в США та Європі. Сайт виглядає статусно й реально допомагає в продажах.”</p>
+            </article>
+            <article class="card review reveal">
+              <h3>Ірина, маркетолог онлайн-школи</h3>
+              <p>“Отримали не просто дизайн, а продуманий інструмент: зрозумілий контент, сильні кейси і логічний шлях до форми.”</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--alt" id="faq">
+        <div class="container faq">
+          <p class="section__label reveal">FAQ</p>
+          <h2 class="reveal">Поширені запитання перед стартом</h2>
+          <div class="faq__list">
+            <details class="faq__item reveal">
+              <summary>Скільки часу займає розробка сайту?</summary>
+              <p>У середньому від 2 до 4 тижнів залежно від обсягу блоків, кількості правок і складності інтеграцій.</p>
+            </details>
+            <details class="faq__item reveal">
+              <summary>Чи допомагаєте з текстами та структурою?</summary>
+              <p>Так, ми формуємо структуру сторінки, підказуємо офери та редагуємо тексти під вашу цільову аудиторію.</p>
+            </details>
+            <details class="faq__item reveal">
+              <summary>Чи можу я редагувати сайт самостійно?</summary>
+              <p>Звісно. Після запуску ви отримаєте зрозумілу структуру коду та рекомендації для швидкого редагування.</p>
+            </details>
+            <details class="faq__item reveal">
+              <summary>Що потрібно для старту роботи?</summary>
+              <p>Короткий бриф, приклади сайтів, які вам подобаються, і базова інформація про послуги чи продукт.</p>
+            </details>
+            <details class="faq__item reveal">
+              <summary>Чи входить SEO-оптимізація у вартість?</summary>
+              <p>Базове SEO входить: правильні заголовки, метатеги, семантика, швидкість та оптимізація контенту.</p>
+            </details>
+            <details class="faq__item reveal">
+              <summary>Чи працюєте ви з міжнародними проєктами?</summary>
+              <p>Так, ми створюємо сайти для локальних і міжнародних ринків з урахуванням мови та специфіки аудиторії.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="contact">
+        <div class="container contact-grid">
+          <div class="reveal">
+            <p class="section__label">Контакти</p>
+            <h2>Обговоримо ваш проєкт і знайдемо найкраще рішення</h2>
+            <p>
+              Залиште заявку — протягом 24 годин підготуємо план запуску, орієнтовний бюджет і реалістичний таймлайн.
+            </p>
+            <div class="socials" aria-label="Соціальні мережі">
+              <a href="https://t.me" target="_blank" rel="noreferrer">Telegram</a>
+              <a href="mailto:hello@novacraft.studio">Email</a>
+              <a href="https://instagram.com" target="_blank" rel="noreferrer">Instagram</a>
+              <a href="https://linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
+            </div>
+          </div>
+
+          <form class="contact-form reveal" novalidate>
+            <label for="name">Ім’я</label>
+            <input id="name" name="name" type="text" placeholder="Ваше ім’я" required />
+
+            <label for="contact-field">Контакт (Email або телефон)</label>
+            <input id="contact-field" name="contact" type="text" placeholder="example@email.com / +380..." required />
+
+            <label for="message">Повідомлення</label>
+            <textarea id="message" name="message" rows="5" placeholder="Коротко опишіть задачу" required></textarea>
+
+            <button class="btn btn--primary" type="submit">Надіслати заявку</button>
+            <p class="form-status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <nav class="footer__nav" aria-label="Навігація у футері">
+          <a href="#hero">Головна</a>
+          <a href="#services">Послуги</a>
+          <a href="#portfolio">Кейси</a>
+          <a href="#contact">Контакти</a>
+        </nav>
+        <p>hello@novacraft.studio • +38 (099) 123-45-67</p>
+        <p>© 2026 NovaCraft Studio. Всі права захищені.</p>
+      </div>
+    </footer>
+
+    <button class="to-top" aria-label="Повернутися вгору">↑</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
